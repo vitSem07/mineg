@@ -1,0 +1,96 @@
+.board {
+    margin-top: 145px;
+    position: absolute;
+    font-weight: 700;
+    font-style: italic;
+    box-shadow: slategrey;
+    text-shadow: darkred;
+    margin-left: 30px;
+}
+body{
+    background-color: steelblue;
+}
+.bottomMenu table{
+    margin-top: 110px;
+    position: absolute;
+    border-top-style: none;
+    margin-left: 30px;
+}
+.shown {
+    background-color:darkgoldenrod;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.cell {
+    background-color: gray;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.marked {
+    background-color: steelblue;
+    background-size: 25px;
+    background-image: url(img/mark.png);
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.safeUsed{
+    background-color: rgb(47, 128, 0);
+    height: 25px;
+    width: 25px;
+    text-align: center;
+} 
+.bombed{
+    background-color: orangered;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+} 
+
+.menuCell {
+    background-color: grey;
+    height: 25px;
+    width: 25px;
+}
+.life{
+    background-color: crimson;
+    background-size: 25px;
+    background-image: url(img/life.png);
+    height: 25px;
+}
+.hint {
+    background-color: royalblue;
+    background-size: 25px;
+    background-image: url(img/hint.png);
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+.smiley {
+    background-color: yellow;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+.topMenu table{
+    background-color: steelblue;
+    text-align: center;
+    color: lavenderblush;
+    position: absolute;
+    margin-top: 30px;
+    width: 400px;
+    height: 30px;
+    border: 3px;
+   font-style: italic;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.important{
+    background-color: grey;
+}
